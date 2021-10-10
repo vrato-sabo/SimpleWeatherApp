@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full bg-blue-400 text-white;
+  background-image: url('https://wallpaperbat.com/img/90735-animated-landscape-2560x1440-wallpaper.png');
+  /* background-image: url('/public/images/90735-animated-landscape-2560x1440-wallpaper.png'); */
+  background-position: center;
+}
+
+::placeholder {
+  @apply text-4xl font-thin h-20;
+}
+
+.hourly-card {
+  @apply flex flex-1 flex-col justify-center items-center hover:scale-105;
+}
+
+.border-div {
+  @apply my-auto h-16 w-px bg-gray-300;
+}
