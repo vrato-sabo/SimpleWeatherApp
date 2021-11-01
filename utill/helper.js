@@ -10,6 +10,7 @@ const months = [
   'August',
   'September',
   'October',
+  'November',
   'December',
 ];
 const today = new Date();
